@@ -15,7 +15,7 @@ A modular, ACID-compliant data pipeline that ingests the public [Yelp Dataset](h
 ![Alt text](assets/schema.png)
 
 ## Dashboard 
-![Alt text](assets/dashboard.png)
+![Alt text](assets/dashboard.jpg)
 
 ## Furrther Action
 - **Integrate Great Expectations**  
