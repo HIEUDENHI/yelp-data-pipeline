@@ -1,0 +1,46 @@
+# ─── Data storage / Docker volumes ───
+# MinIO data
+# PostgreSQL metastore data
+mnt/postgres-metastore-data/
+# Airflow logs
+mnt/airflow/logs/
+# Spark History Server events (nếu bạn mount ra project)
+tmp/spark-events-local/
+# Superset home (metadata, sqlite, local uploads)
+
+# ─── Python artifacts ───
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.jar
+# Virtual environments
+env/
+venv/
+.Python
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Environment variables
+.env
+# Airflow SQLite DB (nếu self-hosted)
+airflow.db
+
+# ─── Jupyter Notebook ───
+.ipynb_checkpoints/
+
+# ─── Docker / Compose overrides ───
+docker-compose.override.yml
+
+# ─── macOS / Windows system files ───
+.DS_Store
+Thumbs.db
+mnt/minio/
+mnt/superset/
+workspace/
+mnt/hive-conf/aws-java-sdk-bundle-1.12.619.jar
+mnt/hive-conf/hadoop-aws-3.3.6.jar
+mnt/hive-conf/postgresql-42.7.3.jar
+
